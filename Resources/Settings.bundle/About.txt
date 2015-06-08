@@ -1,0 +1,16 @@
+Speak version 3
+
+a P.o.E.M.M. platform by Jason Edward Lewis & Bruno Nadeau
+
+What They Speak When They Speak To Me is an interactive poem about mistaken identity and the confusion-amusing and alarming-that happens when people believe you are somebody you are not. We released a version 2, renamed Speak, that added texts by a set of guest poets.
+
+Speak version 3 opens up the Speak P.o.E.M.M. app to the user, allowing her to enter her own text or assemble a text by searching on a keyword, hashtag or account name on Twitter. Speak is the first app in the P.o.E.M.M.s (Poem for Excitable [Mobile] Media) series. Please visit www.poemm.net for more info.
+
+Version 3.1.1
+
+Programming by Bruno Nadeau and Elie Zananiri
+with Christian Gratton, Ian Arawjo and Charles-Antoine Dupont.
+Based on the NextText architecture
+
+2007 - 2013 © Jason Edward Lewis
+texts © their respective authors
