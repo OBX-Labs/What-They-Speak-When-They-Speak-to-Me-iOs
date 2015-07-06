@@ -4,7 +4,7 @@ This program developed as part of the Poetry for Excitable [Mobile] Media, using
 Project lead: Jason Edward Lewis. <br/>
 Technical Lead: Bruno Nadeau. <br/>
 See www.poemm.net and www.nexttext.net for more information. <br/>
-To download the iOS app, visit: https://itunes.apple.com/app/rattlesnakes/id684327074?ls=1&mt=8 <br/>
+To download the iOS app, visit: https://itunes.apple.com/app/speak/id406078727 <br/>
 
  Copyright (C) <2015>  <Jason Lewis>
   
