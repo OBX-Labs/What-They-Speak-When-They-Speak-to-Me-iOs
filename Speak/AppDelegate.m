@@ -42,9 +42,27 @@
     // NEW
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    //OLD
     // Get Screen Bounds
-    CGRect sBounds = [[UIScreen mainScreen] bounds];
-    CGRect sFrame = CGRectMake(sBounds.origin.x, sBounds.origin.y, sBounds.size.height, sBounds.size.width); // Invert height and width to componsate for portrait launch (these values will be set to determine behaviors/dimensions in EAGLView)
+    //CGRect sBounds = [[UIScreen mainScreen] bounds];
+    //CGRect sFrame = CGRectMake(sBounds.origin.x, sBounds.origin.y, sBounds.size.height, sBounds.size.width); // Invert height and width to componsate for portrait launch (these values will be set to determine behaviors/dimensions in EAGLView)
+    
+    //NEW
+    // Get Screen Bounds
+    // CHANGE SABINE:: CGRect sBounds = [[UIScreen mainScreen] bounds];
+    
+    CGFloat width   = [[UIScreen mainScreen] bounds].size.width;
+    NSLog(@"Test:::: %f",width);
+    CGFloat height  = [[UIScreen mainScreen] bounds].size.height;
+    
+    CGRect sBounds = CGRectZero;
+    
+    //if (UIInterfaceOrientationIsLandscape(orientation)) {
+    sBounds.size = CGSizeMake(MAX(width, height), MIN(width, height));
+    //} else {
+    // sBounds.size = CGSizeMake(MIN(width, height), MAX(width, height));
+    //}
+    CGRect sFrame = CGRectMake(sBounds.origin.x, sBounds.origin.y, sBounds.size.width, sBounds.size.height); // Invert height and width to componsate for portrait launch (these values will be set to determine behaviors/dimensions in EAGLView)
     
     // Set app properties
     [OKAppProperties initWithContentsOfFile:[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"OKAppProperties.plist"] andOptions:launchOptions];
