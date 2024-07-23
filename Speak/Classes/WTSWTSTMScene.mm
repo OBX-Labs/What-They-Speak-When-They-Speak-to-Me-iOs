@@ -8,7 +8,7 @@
 
 // Import the interfaces
 #import "WTSWTSTMScene.h"
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "WTSWTSTMModel.h"
 
 

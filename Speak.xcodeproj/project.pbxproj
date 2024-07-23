@@ -481,7 +481,6 @@
 		D245FA8F1728798F00526A65 /* WTSWTSTMModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WTSWTSTMModel.mm; sourceTree = "<group>"; };
 		D245FA901728798F00526A65 /* WTSWTSTMScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSWTSTMScene.h; sourceTree = "<group>"; };
 		D245FA911728798F00526A65 /* WTSWTSTMScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WTSWTSTMScene.mm; sourceTree = "<group>"; };
-		D245FA9B172879CC00526A65 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		D245FA9D172879CC00526A65 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		D245FA9E172879CC00526A65 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		D245FAA1172879CC00526A65 /* OKNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNewAccount.h; sourceTree = "<group>"; };
@@ -1003,7 +1002,6 @@
 		D245F6951728404500526A65 /* Speak */ = {
 			isa = PBXGroup;
 			children = (
-				D245F69E1728404500526A65 /* AppDelegate.h */,
 				D245F69F1728404500526A65 /* AppDelegate.m */,
 				D245FA97172879CC00526A65 /* OKPoEMM */,
 				D245FA871728798F00526A65 /* Classes */,

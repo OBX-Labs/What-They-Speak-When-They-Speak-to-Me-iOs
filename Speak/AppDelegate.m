@@ -6,7 +6,8 @@
 //  Copyright (c) 2013 Christian Gratton. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
+#import "cocos2d.h"
 #import "WTSWTSTMScene.h"
 
 #import "OKPoEMM.h"
