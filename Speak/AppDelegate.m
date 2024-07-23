@@ -15,7 +15,6 @@
 #import "OKAppProperties.h"
 #import "OKPoEMMProperties.h"
 #import "OKInfoViewProperties.h"
-#import "Appirater.h"
 
 #import "TestFlight.h"
 
@@ -201,9 +200,7 @@
 	//if the app launched from a push, show list of poems right away instead
     if([[OKAppProperties sharedInstance] wasPushed])
         [self.poemm openMenuAtTab:MenuGuestPoetsTab];
-    
-    //Appirater after eaglview is started and a few seconds after to let everything get in motion
-    [self performSelector:@selector(manageAppirater) withObject:nil afterDelay:10.0f];
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -249,46 +246,5 @@
     
 }
 
-#pragma mark - Appirater
-
-- (void) manageAppirater
-{
-    [Appirater appLaunched:YES];
-    [Appirater setDelegate:self];
-    [Appirater setLeavesAppToRate:YES]; // Just too hard on the memory
-    [Appirater setAppId:@"406078727"];
-    [Appirater setDaysUntilPrompt:5];
-    [Appirater setUsesUntilPrompt:5];
-}
-
--(void)appiraterDidDisplayAlert:(Appirater *)appirater
-{
-    [[CCDirector sharedDirector] stopAnimation];
-}
-
--(void)appiraterDidDeclineToRate:(Appirater *)appirater
-{
-    [[CCDirector sharedDirector] startAnimation];
-}
-
--(void)appiraterDidOptToRate:(Appirater *)appirater
-{
-    [[CCDirector sharedDirector] stopAnimation];
-}
-
--(void)appiraterDidOptToRemindLater:(Appirater *)appirater
-{
-    [[CCDirector sharedDirector] startAnimation];
-}
-
--(void)appiraterWillPresentModalView:(Appirater *)appirater animated:(BOOL)animated
-{
-    [[CCDirector sharedDirector] stopAnimation];
-}
-
--(void)appiraterDidDismissModalView:(Appirater *)appirater animated:(BOOL)animated
-{
-    [[CCDirector sharedDirector] startAnimation];
-}
 
 @end

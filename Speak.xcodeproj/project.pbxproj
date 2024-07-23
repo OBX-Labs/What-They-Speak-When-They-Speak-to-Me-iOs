@@ -113,7 +113,6 @@
 		D245FA941728798F00526A65 /* NTTextObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = D245FA8D1728798F00526A65 /* NTTextObject.mm */; };
 		D245FA951728798F00526A65 /* WTSWTSTMModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = D245FA8F1728798F00526A65 /* WTSWTSTMModel.mm */; };
 		D245FA961728798F00526A65 /* WTSWTSTMScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = D245FA911728798F00526A65 /* WTSWTSTMScene.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D245FB35172879CD00526A65 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = D245FA9A172879CC00526A65 /* Appirater.m */; };
 		D245FB36172879CD00526A65 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = D245FA9E172879CC00526A65 /* DejalActivityView.m */; };
 		D245FB37172879CD00526A65 /* OKNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = D245FAA2172879CC00526A65 /* OKNewAccount.m */; };
 		D245FB38172879CD00526A65 /* OKRequestPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = D245FAA4172879CC00526A65 /* OKRequestPassword.m */; };
@@ -471,7 +470,6 @@
 		D245F6991728404500526A65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D245F69B1728404500526A65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D245F69D1728404500526A65 /* Speak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speak-Prefix.pch"; sourceTree = "<group>"; };
-		D245F69E1728404500526A65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D245F69F1728404500526A65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D245FA881728798F00526A65 /* NTGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGlyph.h; sourceTree = "<group>"; };
 		D245FA891728798F00526A65 /* NTGlyph.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NTGlyph.mm; sourceTree = "<group>"; };
@@ -483,8 +481,6 @@
 		D245FA8F1728798F00526A65 /* WTSWTSTMModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WTSWTSTMModel.mm; sourceTree = "<group>"; };
 		D245FA901728798F00526A65 /* WTSWTSTMScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSWTSTMScene.h; sourceTree = "<group>"; };
 		D245FA911728798F00526A65 /* WTSWTSTMScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WTSWTSTMScene.mm; sourceTree = "<group>"; };
-		D245FA99172879CC00526A65 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		D245FA9A172879CC00526A65 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
 		D245FA9B172879CC00526A65 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		D245FA9D172879CC00526A65 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		D245FA9E172879CC00526A65 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
@@ -1049,7 +1045,6 @@
 		D245FA97172879CC00526A65 /* OKPoEMM */ = {
 			isa = PBXGroup;
 			children = (
-				D245FA98172879CC00526A65 /* Appirater */,
 				D245FA9C172879CC00526A65 /* DSActivityView */,
 				D245FA9F172879CC00526A65 /* OKAccountManager */,
 				D245FAB0172879CC00526A65 /* OKInfoView */,
@@ -1065,16 +1060,6 @@
 				D245FAEF172879CC00526A65 /* Resources */,
 			);
 			path = OKPoEMM;
-			sourceTree = "<group>";
-		};
-		D245FA98172879CC00526A65 /* Appirater */ = {
-			isa = PBXGroup;
-			children = (
-				D245FA99172879CC00526A65 /* Appirater.h */,
-				D245FA9A172879CC00526A65 /* Appirater.m */,
-				D245FA9B172879CC00526A65 /* AppiraterDelegate.h */,
-			);
-			path = Appirater;
 			sourceTree = "<group>";
 		};
 		D245FA9C172879CC00526A65 /* DSActivityView */ = {
@@ -1718,7 +1703,6 @@
 				D245FA941728798F00526A65 /* NTTextObject.mm in Sources */,
 				D245FA951728798F00526A65 /* WTSWTSTMModel.mm in Sources */,
 				D245FA961728798F00526A65 /* WTSWTSTMScene.mm in Sources */,
-				D245FB35172879CD00526A65 /* Appirater.m in Sources */,
 				D245FB36172879CD00526A65 /* DejalActivityView.m in Sources */,
 				D245FB37172879CD00526A65 /* OKNewAccount.m in Sources */,
 				D245FB38172879CD00526A65 /* OKRequestPassword.m in Sources */,
