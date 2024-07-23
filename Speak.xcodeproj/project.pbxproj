@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		278845872C4F5FC300F01E33 /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278845862C4F5FC300F01E33 /* OBXKit.framework */; };
-		278845882C4F5FC300F01E33 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 278845862C4F5FC300F01E33 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57F00E402045D99E0022C9E2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F00E3F2045D99E0022C9E2 /* Media.xcassets */; };
 		951C508B189060780003744C /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C5087189060780003744C /* death.png */; };
 		951C508C189060780003744C /* death@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C5088189060780003744C /* death@2x.png */; };
@@ -255,17 +253,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		278845892C4F5FC300F01E33 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				278845882C4F5FC300F01E33 /* OBXKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D245FD76172880B000526A65 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -684,7 +671,6 @@
 				D245FED8172884C000526A65 /* CFNetwork.framework in Frameworks */,
 				D245FED6172884BA00526A65 /* SystemConfiguration.framework in Frameworks */,
 				D245FED4172884B500526A65 /* Security.framework in Frameworks */,
-				278845872C4F5FC300F01E33 /* OBXKit.framework in Frameworks */,
 				D245FED2172884AF00526A65 /* MessageUI.framework in Frameworks */,
 				D245FED0172884AA00526A65 /* AVFoundation.framework in Frameworks */,
 				D245FECE172884A300526A65 /* OpenAL.framework in Frameworks */,
@@ -1554,7 +1540,6 @@
 				D245F6881728404500526A65 /* Sources */,
 				D245F6891728404500526A65 /* Frameworks */,
 				D245F68A1728404500526A65 /* Resources */,
-				278845892C4F5FC300F01E33 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2013,6 +1998,7 @@
 				DSTROOT = /tmp/cocos2d_libraries.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cocos2d-libraries/cocos2d-libraries-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2035,6 +2021,7 @@
 				DSTROOT = /tmp/cocos2d_libraries.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cocos2d-libraries/cocos2d-libraries-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2123,6 +2110,7 @@
 				DSTROOT = /tmp/cocos2d_libraries.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cocos2d-libraries/cocos2d-libraries-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
