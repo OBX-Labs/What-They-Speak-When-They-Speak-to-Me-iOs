@@ -265,7 +265,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		278845862C4F5FC300F01E33 /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E81C9A2CEF363A0030510D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57F00E3F2045D99E0022C9E2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		951C5087189060780003744C /* death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = death.png; sourceTree = "<group>"; };
 		951C5088189060780003744C /* death@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "death@2x.png"; sourceTree = "<group>"; };
@@ -481,7 +481,6 @@
 		D245FA8F1728798F00526A65 /* WTSWTSTMModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WTSWTSTMModel.mm; sourceTree = "<group>"; };
 		D245FA901728798F00526A65 /* WTSWTSTMScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSWTSTMScene.h; sourceTree = "<group>"; };
 		D245FA911728798F00526A65 /* WTSWTSTMScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WTSWTSTMScene.mm; sourceTree = "<group>"; };
-		D245FA9B172879CC00526A65 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		D245FA9D172879CC00526A65 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		D245FA9E172879CC00526A65 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		D245FAA1172879CC00526A65 /* OKNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNewAccount.h; sourceTree = "<group>"; };
@@ -975,7 +974,6 @@
 		D245F68E1728404500526A65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				278845862C4F5FC300F01E33 /* OBXKit.framework */,
 				D245FEDF172884DC00526A65 /* StoreKit.framework */,
 				D245FEDD172884D700526A65 /* CoreTelephony.framework */,
 				D245FEDB172884D300526A65 /* libsqlite3.dylib */,
@@ -1003,7 +1001,7 @@
 		D245F6951728404500526A65 /* Speak */ = {
 			isa = PBXGroup;
 			children = (
-				D245F69E1728404500526A65 /* AppDelegate.h */,
+				27E81C9A2CEF363A0030510D /* AppDelegate.h */,
 				D245F69F1728404500526A65 /* AppDelegate.m */,
 				D245FA97172879CC00526A65 /* OKPoEMM */,
 				D245FA871728798F00526A65 /* Classes */,
@@ -1562,7 +1560,7 @@
 				ORGANIZATIONNAME = "Christian Gratton";
 				TargetAttributes = {
 					D245F68B1728404500526A65 = {
-						DevelopmentTeam = 6B68QQG3FR;
+						DevelopmentTeam = 8WM835VJ56;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1917,7 +1915,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Speak/Speak-Prefix.pch";
 				INFOPLIST_FILE = "Speak/Speak-Info.plist";
@@ -1927,7 +1925,7 @@
 					"\"$(SRCROOT)/Speak/libs/TestFlight SDK 1.2.4\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Speak;
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.speak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1949,7 +1947,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Speak/Speak-Prefix.pch";
 				INFOPLIST_FILE = "Speak/Speak-Info.plist";
@@ -1959,7 +1957,7 @@
 					"\"$(SRCROOT)/Speak/libs/TestFlight SDK 1.2.4\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Speak;
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.speak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -2062,7 +2060,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Speak/Speak-Prefix.pch";
 				INFOPLIST_FILE = "Speak/Speak-Info.plist";
@@ -2072,7 +2070,7 @@
 					"\"$(SRCROOT)/Speak/libs/TestFlight SDK 1.2.4\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Speak;
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.speak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
